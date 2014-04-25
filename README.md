@@ -22,6 +22,10 @@ Installation
 # Gemfile
 gem 'spree_taxon_splash', :github => 'iloveitaly/spree_taxon_splash'
 ```
+bundle and run migrations
+```ruby
+rails g spree_taxon_splash:install
+```
 
 Testing
 -------
